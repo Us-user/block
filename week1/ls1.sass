@@ -1,0 +1,31 @@
+
+@mixin q1($q3,$q4)
+    border: none
+    background-color: red
+    font-size: $q3
+    padding: 16px
+    border-radius: 40px
+    color: $q4
+
+// div
+//     display: flex
+//     justify-content: space-evenly
+//     ul
+//         display: flex
+//         gap: 34px
+//         li
+//             font-size: 30px
+//     div
+//         display: flex
+//         gap: 16px
+//         button
+//             padding: 16px 24px
+//             background-color: $q1
+//             color: white
+//             border: none
+//             border-radius: 20px
+
+.w1
+    @include q1(40px,gray)
+.w2
+    @include q1(20px, black)
