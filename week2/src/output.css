@@ -8,6 +8,7 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-green-400: oklch(79.2% 0.209 151.711);
+    --color-emerald-50: oklch(97.9% 0.021 166.113);
     --color-gray-400: oklch(70.7% 0.022 261.325);
     --color-gray-600: oklch(44.6% 0.03 256.802);
     --color-gray-800: oklch(27.8% 0.033 256.848);
@@ -195,9 +196,6 @@
   .top-0 {
     top: calc(var(--spacing) * 0);
   }
-  .top-\[000px\] {
-    top: 000px;
-  }
   .top-\[900px\] {
     top: 900px;
   }
@@ -218,9 +216,6 @@
   }
   .top-\[2500px\] {
     top: 2500px;
-  }
-  .top-\[3000px\] {
-    top: 3000px;
   }
   .top-\[3050px\] {
     top: 3050px;
@@ -255,41 +250,14 @@
   .top-\[4918px\] {
     top: 4918px;
   }
-  .top-\[5000px\] {
-    top: 5000px;
-  }
   .top-\[5190px\] {
     top: 5190px;
-  }
-  .top-\[6250px\] {
-    top: 6250px;
   }
   .top-\[6300px\] {
     top: 6300px;
   }
-  .top-\[6400px\] {
-    top: 6400px;
-  }
-  .top-\[6500px\] {
-    top: 6500px;
-  }
-  .top-\[7000px\] {
-    top: 7000px;
-  }
   .top-\[9770px\] {
     top: 9770px;
-  }
-  .top-\[9800px\] {
-    top: 9800px;
-  }
-  .top-\[9900px\] {
-    top: 9900px;
-  }
-  .top-\[10000pc\] {
-    top: 10000pc;
-  }
-  .top-\[10000px\] {
-    top: 10000px;
   }
   .top-\[10500px\] {
     top: 10500px;
@@ -326,12 +294,6 @@
   }
   .left-\[60px\] {
     left: 60px;
-  }
-  .left-\[200px\] {
-    left: 200px;
-  }
-  .left-\[220px\] {
-    left: 220px;
   }
   .left-\[800px\] {
     left: 800px;
@@ -416,9 +378,6 @@
   }
   .mt-\[-80px\] {
     margin-top: -80px;
-  }
-  .mt-\[6\] {
-    margin-top: 6;
   }
   .mt-\[8px\] {
     margin-top: 8px;
@@ -534,6 +493,9 @@
   .mb-16 {
     margin-bottom: calc(var(--spacing) * 16);
   }
+  .mb-18 {
+    margin-bottom: calc(var(--spacing) * 18);
+  }
   .mb-\[-20px\] {
     margin-bottom: -20px;
   }
@@ -573,15 +535,6 @@
   .mb-\[70px\] {
     margin-bottom: 70px;
   }
-  .mb-\[80\] {
-    margin-bottom: 80;
-  }
-  .mb-\[80p\] {
-    margin-bottom: 80p;
-  }
-  .mb-\[80pc\] {
-    margin-bottom: 80pc;
-  }
   .mb-\[80px\] {
     margin-bottom: 80px;
   }
@@ -596,9 +549,6 @@
   }
   .mb-\[160px\] {
     margin-bottom: 160px;
-  }
-  .mb-\[300px\] {
-    margin-bottom: 300px;
   }
   .mb-\[450px\] {
     margin-bottom: 450px;
@@ -642,15 +592,6 @@
   .h-60 {
     height: calc(var(--spacing) * 60);
   }
-  .h-\[00px\] {
-    height: 00px;
-  }
-  .h-\[25\] {
-    height: 25;
-  }
-  .h-\[100px\] {
-    height: 100px;
-  }
   .h-\[130px\] {
     height: 130px;
   }
@@ -659,9 +600,6 @@
   }
   .h-\[200px\] {
     height: 200px;
-  }
-  .h-\[250px\] {
-    height: 250px;
   }
   .h-\[352px\] {
     height: 352px;
@@ -756,9 +694,6 @@
   .w-\[32\.5\%\] {
     width: 32.5%;
   }
-  .w-\[39\%\] {
-    width: 39%;
-  }
   .w-\[40\%\] {
     width: 40%;
   }
@@ -846,14 +781,8 @@
   .w-\[300px\] {
     width: 300px;
   }
-  .w-\[400pc\] {
-    width: 400pc;
-  }
   .w-\[400px\] {
     width: 400px;
-  }
-  .w-\[500px\] {
-    width: 500px;
   }
   .w-auto {
     width: auto;
@@ -890,9 +819,6 @@
   }
   .flex-col-reverse {
     flex-direction: column-reverse;
-  }
-  .flex-row {
-    flex-direction: row;
   }
   .flex-wrap {
     flex-wrap: wrap;
@@ -1005,9 +931,6 @@
   .overflow-x-auto {
     overflow-x: auto;
   }
-  .rounded {
-    border-radius: 0.25rem;
-  }
   .rounded-2xl {
     border-radius: var(--radius-2xl);
   }
@@ -1105,9 +1028,6 @@
   }
   .border-\[\#8B8B8B\] {
     border-color: #8B8B8B;
-  }
-  .border-\[\#211F54\] {
-    border-color: #211F54;
   }
   .border-\[\#20201F\] {
     border-color: #20201F;
@@ -1440,6 +1360,9 @@
     --tw-gradient-to: var(--color-white);
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
+  .fill-emerald-50 {
+    fill: var(--color-emerald-50);
+  }
   .p-0 {
     padding: calc(var(--spacing) * 0);
   }
@@ -1691,9 +1614,6 @@
   }
   .pb-\[150px\] {
     padding-bottom: 150px;
-  }
-  .pb-\[200pb\] {
-    padding-bottom: 200pb;
   }
   .pb-\[200px\] {
     padding-bottom: 200px;
@@ -1996,12 +1916,6 @@
   .text-\[\#FFFFFFB8\] {
     color: #FFFFFFB8;
   }
-  .text-\[12\] {
-    color: 12;
-  }
-  .text-\[18\] {
-    color: 18;
-  }
   .text-\[18p\] {
     color: 18p;
   }
@@ -2166,11 +2080,6 @@
   .qq\:top-\[3160px\] {
     @media (width >= 510px) {
       top: 3160px;
-    }
-  }
-  .qq\:top-\[6000px\] {
-    @media (width >= 510px) {
-      top: 6000px;
     }
   }
   .qq\:top-\[6300px\] {
