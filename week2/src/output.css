@@ -531,6 +531,9 @@
   .mb-\[80p\] {
     margin-bottom: 80p;
   }
+  .mb-\[80pc\] {
+    margin-bottom: 80pc;
+  }
   .mb-\[80px\] {
     margin-bottom: 80px;
   }
@@ -683,6 +686,9 @@
   }
   .w-\[32\.5\%\] {
     width: 32.5%;
+  }
+  .w-\[39\%\] {
+    width: 39%;
   }
   .w-\[40\%\] {
     width: 40%;
@@ -1819,6 +1825,9 @@
   .text-\[\#9A9CA5\] {
     color: #9A9CA5;
   }
+  .text-\[\#0075FF\] {
+    color: #0075FF;
+  }
   .text-\[\#95AFBA\] {
     color: #95AFBA;
   }
@@ -1887,6 +1896,9 @@
   }
   .text-\[\#FFFFFFB8\] {
     color: #FFFFFFB8;
+  }
+  .text-\[12\] {
+    color: 12;
   }
   .text-\[18\] {
     color: 18;
@@ -2260,6 +2272,11 @@
   .qq\:w-\[38\%\] {
     @media (width >= 510px) {
       width: 38%;
+    }
+  }
+  .qq\:w-\[39\%\] {
+    @media (width >= 510px) {
+      width: 39%;
     }
   }
   .qq\:w-\[40\%\] {
