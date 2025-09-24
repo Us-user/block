@@ -692,6 +692,9 @@
   .w-\[20\%\] {
     width: 20%;
   }
+  .w-\[23\%\] {
+    width: 23%;
+  }
   .w-\[28\%\] {
     width: 28%;
   }
@@ -967,6 +970,9 @@
   }
   .overflow-x-auto {
     overflow-x: auto;
+  }
+  .rounded {
+    border-radius: 0.25rem;
   }
   .rounded-2xl {
     border-radius: var(--radius-2xl);
@@ -1898,6 +1904,9 @@
   .font-semibold {
     --tw-font-weight: var(--font-weight-semibold);
     font-weight: var(--font-weight-semibold);
+  }
+  .text-\[\#0B4F00\] {
+    color: #0B4F00;
   }
   .text-\[\#0E6400\] {
     color: #0E6400;
